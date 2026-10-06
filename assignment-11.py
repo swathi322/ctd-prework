@@ -1,7 +1,7 @@
 #Section 1: Variables and Types::
 
 Name = "Swathi"
-Age = 31
+Age = 32
 Height = 5.1
 Are_you_Under_40 = True or False
 
@@ -16,13 +16,10 @@ print("welcome to Code the Dream", Name)
 
 #Section 2: User Input and Math::
 
-#a = 10
-#b = 5
-#result = a*b
-a=int(input("enter value of a "))
-b=int(input("enter value of b "))
-c= str(a*b)
-print( "Result: " + c)
+name=str(input("Please enter your name: "))
+bornyear=int(input("Please enter your born year : "))
+age= 2026-bornyear
+print(f" Hi, {name}! You are approximately {age} years old")
 
 #Section 3: Type Conversion and f-strings::
 #16.6 × 4.6 = 30.02
@@ -60,10 +57,8 @@ bornyear = int(input("Enter a bornyear: "))
 currentyear =2026
 age = currentyear-bornyear
 
-
-print(f"currentyear {currentyear} and bornyear {bornyear} Age is {result}")
 print("╔══════════════════════════════╗")
-print(f"PROFILE:        {profile} ")
+print(f"    PROFILE:    {profile} ")
 print("╚══════════════════════════════╝")
 print(f"Hometown:       {hometown}")
 print(f"Favoritehobby:  {favoritehobby}")
