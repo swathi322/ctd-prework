@@ -19,7 +19,7 @@ print("welcome to Code the Dream", Name)
 name=str(input("Please enter your name: "))
 bornyear=int(input("Please enter your born year : "))
 age= 2026-bornyear
-print(f" Hi, {name}! You are approximately {age} years old)
+print(f" Hi, {name}! You are approximately {age} years old")
 
 #Section 3: Type Conversion and f-strings::
 #16.6 × 4.6 = 30.02
