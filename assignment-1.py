@@ -3,7 +3,7 @@
 Name = "Swathi"
 Age = 32
 Height = 5.1
-Are_you_Under_40 = True or False
+Are_you_Under_40 = True
 
 
 print("enter a Name", type(Name ))
